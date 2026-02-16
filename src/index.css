@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@utility container {
+  margin-inline: auto;
+  padding-inline: 2rem;
+  width: 100%;
+  max-width: 80rem;
+}
+
+@theme {
+  /* Yellow Shades */
+  --color-yellow-50: #ffd11a;
+  --color-yellow-60: #ffd633;
+  --color-yellow-70: #ffe066;
+  --color-yellow-80: #ffeb99;
+  --color-yellow-90: #fff5cc;
+  --color-yellow-95: #fffae5;
+  --color-yellow-97: #fffcf0;
+  --color-yellow-99: #fbfbfe;
+  /* Dark Shades */
+  --color-dark-08: #141414;
+  --color-dark-10: #1a1a1a;
+  --color-dark-15: #262626;
+  --color-dark-20: #333333;
+  --color-dark-25: #404040;
+  --color-dark-30: #4d4d4d;
+  --color-dark-35: #595959;
+  --color-dark-40: #666666;
+  /* Grey Shades */
+  --color-grey-50: #7e7e81;
+  --color-grey-60: #98989a;
+  --color-grey-70: #b3b3b3;
+  --color-grey-80: #cccccc;
+  --color-grey-90: #e4e4e7;
+  --color-grey-95: #f1f1f3;
+  --color-grey-97: #f7f7f8;
+  --color-grey-99: #fcfcfd;
+}
+
+/* Global */
+html,
+body {
+  font-family: "Kumbh Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "YOPQ" 300;
+}
+
+button {
+  cursor: pointer;
+}
+
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+p {
+  font-size: 14px;
+  color: var(--color-grey-60);
+}
+
+@media (min-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 18px;
+  }
+}
