@@ -40,3 +40,23 @@ You are an expert React developer. The project is an AI Blog (FutureTech).
 
 - Speak in **Egyptian Arabic (Ammiya)** in a friendly, helpful tone.
 - Be direct and avoid unnecessary fluff.
+
+## Git & Commits Guidelines
+
+- Use **Conventional Commits** format strictly.
+- Format: `<type>(<scope>): <short summary>`
+- **Types:**
+  - `feat`: New features (e.g., `feat(ui): add navbar component`).
+  - `fix`: Bug fixes.
+  - `docs`: Documentation changes.
+  - `style`: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).
+  - `refactor`: A code change that neither fixes a bug nor adds a feature.
+  - `chore`: Updating build tasks, package manager configs, etc.
+- **Scopes:** Use specific scopes like `(core)`, `(ui)`, `(layout)`, `(pages)`, or `(auth)` to indicate the area of change.
+- **Language:** Commit messages must be in **English**, concise, and descriptive.
+- **Detailed Commits:** If the changes are significant, include a brief body (after a blank line) explaining "what" was changed and "why", using bullet points.
+- **Example:**
+  feat(sections): implement Testimonials section
+  - Integrated SectionHeader component for consistent branding.
+  - Added reusable Button component with routing logic.
+  - Styled testimonials cards using Tailwind CSS 4 theme colors.
